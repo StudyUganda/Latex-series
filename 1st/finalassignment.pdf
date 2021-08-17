@@ -1,0 +1,50 @@
+\documentclass[]{article}
+\title{Quantum Mechanics Assignment}
+\author{Oliseh Genesis @studyug.com}
+\begin{document}
+	\maketitle
+\begin{center}
+	\textbf{Qn:} Consider a Particle Whose wave function is given by $\psi(w) = Ae^{-a{x}^{2}}$ . What is the value of A if the wave function is normalized?
+\end{center}
+\begin{center}
+	Solution
+\end{center}
+\begin{center}
+
+To normalize the \textit{function},
+	we integrate from +infinity to -negative infinity = 1
+	\par from $\int_{-\infty}^{\infty}|\psi(w)|d{x}$ = 1
+	\newline
+		\newline but $\psi(w) = Ae^{-a{x}^{2}}$
+		\newline
+		\newline $|\psi(w)|^{2}| = A^{2}e^{-2(a{x}^{2})}$
+		\newline
+		\newline $\int_{-\infty}^{\infty}A^{2}e^{-2(a{x}^{2})}$ = 1
+		\newline
+		\newline $A^{2}\int_{-\infty}^{\infty}e^{-2(a{x}^{2})}$ = 1
+		\newline
+		\newline let $2{x}^{2}  = y^2$ 
+		\newline
+		\newline s.t $y = \sqrt{2a}{x}$
+		\newline
+		\newline $d{x} = \frac{d{y})}{2a}$
+		\newline
+\newline$\frac{A^2)}{\sqrt{2a}}\int_{-\infty}^{\infty}e^{-y^{2}}dy = 1$
+\newline
+\newline $\int_{-\infty}^{\infty}e^{-y^{2}}dy=  \frac{A^2}{\sqrt{2a}} $
+\newline
+\newline \textbf{But From The integral Table}  $\int_{-\infty}^{\infty}e^{-y^{2}}dy= \pi $
+\newline
+\newline therefore $\pi = \frac{A^2}{\sqrt{2a}}$
+\newline
+\newline $ {A^2} = \frac{\sqrt{2a}}{A^2}$
+\newline
+\newline thus $ A = (\frac{\sqrt{2a}}{\pi})^\frac{1}{2}$
+\newline
+\end{center}
+
+
+
+	
+	
+\end{document}
